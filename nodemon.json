@@ -1,0 +1,6 @@
+{
+  "watch": ["controllers", "models", "routes", "index.js"],
+  "ignore": ["node_modules/*", ".git/*", "logs/*", "coverage/*", ".vscode/*"],
+  "ext": "js,json",
+  "delay": "250"
+}
