@@ -24,7 +24,7 @@ app.use("/api/classes", classRoutes);
 app.use("/api/students", studentRoutes);
 
 // Default route
-app.get("/", (req, res) => res.send("🎓 School API Running..."));
+app.get("/", (req, res) => res.send("🎓 School API Running... hehehehe"));
 
 // Start server
 const PORT = process.env.PORT || 5000;
